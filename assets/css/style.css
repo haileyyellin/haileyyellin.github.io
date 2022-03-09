@@ -1,0 +1,56 @@
+/*
+colors
+brown #a34515
+light pink #fce5d9
+coral #f09e75
+dark teal #27a39b
+light teal #8bf0e9
+
+fonts
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Noto Serif Display', serif;
+*/
+body,
+.ad{
+    background: #fce5d9;
+}
+.block,
+.contact{
+    background: #f09e75;
+    padding: 20px;
+}
+h1{
+    color: #27a39b;
+    font-family: 'Fjalla One', sans-serif;
+    padding-top: 10px;
+    font-size: 50px;
+}
+h4{
+    color: #a34515;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+.bio,
+.nav-link,
+nav,
+.contact,
+.info,
+.row{
+    color: #a34515;
+    text-align: center;
+    font-family: 'Noto Serif Display', serif;
+}
+.nav-link:hover{
+    color: #27a39b;
+}
+.ad{
+    padding-top: 10px;
+}
+.tlb{
+    padding-top: 70px;
+    font-size: x-large;
+}
+footer{
+    padding: 20px;
+}
