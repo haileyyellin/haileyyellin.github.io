@@ -19,6 +19,9 @@ body,
     background: #f09e75;
     padding: 20px;
 }
+.links{
+    color:#a34515
+}
 h1{
     color: #27a39b;
     font-family: 'Fjalla One', sans-serif;
@@ -36,21 +39,36 @@ h4{
 nav,
 .contact,
 .info,
-.row{
+.row
+{
     color: #a34515;
     text-align: center;
     font-family: 'Noto Serif Display', serif;
 }
-.nav-link:hover{
+.nav-link:hover
+{
     color: #27a39b;
 }
 .ad{
     padding-top: 10px;
 }
 .tlb{
-    padding-top: 70px;
-    font-size: x-large;
+    padding-top: 5px;
+    font-size: 20px;
+}
+@media (min-width:900px) {
+    .tlb {
+        padding-top: 90px;
+    }
 }
 footer{
     padding: 20px;
+}
+@media (max-width:450px){
+    .nav {
+        display: block;
+    }
+    .circle {
+        width: 200px;
+    }
 }
