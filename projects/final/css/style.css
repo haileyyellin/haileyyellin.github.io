@@ -1,0 +1,60 @@
+/* fonts
+font-family: 'EB Garamond', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+/* colors
+RED #E03A3E
+YELLOW #FFD520
+BLACK #000000
+WHITE #FFFFFF
+*/
+body{
+    background-color: black;
+}
+h1,
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    color: #E03A3E; 
+    text-align: center;
+}
+h1{
+    font-weight: 800;
+    padding: 20px 0;
+}
+h2{
+    padding:20px 0 0;
+}
+.sections,
+.chart{
+    background-color: #FFD520;
+    width: 85%;
+    margin: auto;
+}
+iframe{
+    padding: 10px;
+}
+img{
+    margin: auto;
+    max-width: 300px;
+}
+p{
+    padding: 0 20px;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+p.indent{
+    text-indent: 20px;
+}
+@media (max-width:850px) {
+    p{
+        font-size: 1em;
+    }
+}
+@media (max-width:500px) {
+    .null{
+        display: none;
+    }
+}
