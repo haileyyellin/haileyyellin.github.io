@@ -35,9 +35,42 @@ h2{
 iframe{
     padding: 10px;
 }
-img{
+.img-fluid{
     margin: auto;
-    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+}
+.null{
+    margin-top: 50px;
+}
+.old{
+    margin-right: 40px;
+}
+.champ{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.now{
+    margin-top: 110px;
+    margin-left: 40px;
+}
+@media (min-width: 450px) and (max-width: 800px) {
+    .img-fluid{
+        width: 200px;
+        height: 200px;
+    }
+    .null{
+        margin-top: 75px;
+    }
+    .champ{
+        margin-left: 2px;
+        margin-top: 60px;
+    }
+    .now{
+        margin-top: 110px;
+        margin-left: 2px;
+    }
 }
 p{
     padding: 0 20px;
@@ -53,8 +86,19 @@ p.indent{
         font-size: 1em;
     }
 }
-@media (max-width:500px) {
+@media (max-width:450px) {
     .null{
         display: none;
     }
+    .old,
+    .champ,
+    .now,
+    .gary{
+        margin-left: 25px;
+    }
+    .champ,
+    .now{
+        margin-top: 0;
+    }
+
 }
