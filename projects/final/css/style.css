@@ -100,5 +100,13 @@ p.indent{
     .now{
         margin-top: 0;
     }
-
+}
+.copyright{
+    padding-bottom: 3px
+}
+a{
+    color: #ffffff;
+}
+a:hover{
+    color: #E03A3E;
 }
