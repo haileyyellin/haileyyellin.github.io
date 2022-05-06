@@ -9,107 +9,132 @@ YELLOW #FFD520
 BLACK #000000
 WHITE #FFFFFF
 */
-body{
+body {
     background-color: black;
 }
+
 h1,
-h2{
+h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-    color: #E03A3E; 
+    font-weight: 800;
+    color: #FFD520;
     text-align: center;
 }
-h1{
-    font-weight: 800;
+
+h1 {
+    font-weight: 400;
     padding: 20px 0;
+    color: #E03A3E;
 }
-h2{
-    padding:20px 0 0;
+
+h2 {
+    padding: 20px 0 0;
 }
+
 .sections,
-.chart{
-    background-color: #FFD520;
+.chart {
+    background-color: #E03A3E;
     width: 85%;
     margin: auto;
 }
-iframe{
+
+iframe {
     padding: 10px;
 }
-.img-fluid{
+
+.img-fluid {
     margin: auto;
     width: 300px;
     height: 300px;
     align-items: center;
 }
-.null{
+
+.null {
     margin-top: 50px;
 }
-.old{
+
+.old {
     margin-right: 40px;
 }
-.champ{
+
+.champ {
     margin-top: 50px;
     margin-left: 40px;
 }
-.now{
+
+.now {
     margin-top: 110px;
     margin-left: 40px;
 }
+
 @media (min-width: 450px) and (max-width: 800px) {
-    .img-fluid{
+    .img-fluid {
         width: 200px;
         height: 200px;
     }
-    .null{
+
+    .null {
         margin-top: 75px;
     }
-    .champ{
+
+    .champ {
         margin-left: 2px;
         margin-top: 60px;
     }
-    .now{
+
+    .now {
         margin-top: 110px;
         margin-left: 2px;
     }
 }
-p{
+
+p {
     padding: 0 20px;
     font-family: 'EB Garamond', serif;
     font-size: 1.5em;
-    color: #ffffff;
+    color: #FFFFFF;
 }
-p.indent{
+
+p.indent {
     text-indent: 20px;
 }
+
 @media (max-width:850px) {
-    p{
+    p {
         font-size: 1em;
     }
 }
+
 @media (max-width:450px) {
-    .null{
+    .null {
         display: none;
     }
+
     .old,
     .champ,
     .now,
-    .gary{
+    .gary {
         margin-left: 25px;
     }
+
     .champ,
-    .now{
+    .now {
         margin-top: 0;
     }
 }
-.copyright{
+
+.copyright {
     padding-bottom: 3px
 }
-a{
-    color: #ffffff;
+
+a {
+    color: #FFFFFF;
 }
-a:hover{
-    color: #E03A3E;
+
+a:hover {
+    color: #FFD520;
 }
-footer{
+
+footer {
     text-align: center;
 }
