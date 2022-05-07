@@ -10,7 +10,7 @@ BLACK #000000
 WHITE #FFFFFF
 */
 body {
-    background-color: black;
+    background-color: #000000;
 }
 
 h1,
@@ -30,12 +30,17 @@ h1 {
 h2 {
     padding: 20px 0 0;
 }
-
+p.none{
+    font-size: .7em;
+}
 .sections,
 .chart {
     background-color: #E03A3E;
     width: 85%;
     margin: auto;
+}
+.chart{
+    background-color: #FFFFFF;
 }
 
 iframe {
@@ -109,7 +114,9 @@ p.indent {
     .null {
         display: none;
     }
-
+    .none{
+        display: none;
+    }
     .old,
     .champ,
     .now,
